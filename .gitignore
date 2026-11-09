@@ -1,0 +1,16 @@
+# Browser profiles: cookies, saved passwords, logged-in sessions. NEVER commit.
+browser-profile*/
+
+# Personal / third-party data produced while running
+commented.json
+debug_*.json
+output/
+
+# Models are downloaded automatically on first run
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
